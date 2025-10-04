@@ -15,5 +15,7 @@ sed -i 's/${MOTD}/'"$MOTD"'/g' listeners.toml
 
 cd ../..
 
-echo "Starting Velocity | For Koyeb test"
+while true do curl https://localhost:14457 sleep 60 done &
+
+echo "Starting Velocity | For Koyeb"
 java -Xmx512M -Xms512M -jar velocity.jar
