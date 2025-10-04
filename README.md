@@ -18,13 +18,13 @@
 <img src="./imgs/koyeb/step1.png">
 <p>Step 2: Connect this repository.</p>
 <img src="./imgs/koyeb/step2.png">
-<p>Step 2: Click Dockerfile.</p>
+<p>Step 3: Click Dockerfile.</p>
 <img src="./imgs/koyeb/step3.png">
-<p>Step 2: Go to CPU Eco and select Free.</p>
+<p>Step 4: Go to CPU Eco and select Free.</p>
 <img src="./imgs/koyeb/step4.png">
-<p>Step 2: Click Source and change the branch to koyeb.</p>
+<p>Step 5: Click Source and change the branch to koyeb.</p>
 <img src="./imgs/koyeb/step5.png">
-<p> Step 5: Click Environment Variables and create 3 Environment Variables (check images for names).</p>
+<p> Step 6: Click Environment Variables and create 3 Environment Variables (check images for names).</p>
 <img src="./imgs/koyeb/step6.png">
-<p> Step 5: Click on Ports and set the port to be 14457 and tick Proxy TCP access(this will be your java ip).</p>
+<p> Step 7: Click on Ports and set the port to be 14457 and tick Proxy TCP access(this will be your java ip).</p>
 <img src="./imgs/koyeb/step7.png">
