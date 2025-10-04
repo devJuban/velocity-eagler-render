@@ -15,5 +15,5 @@ sed -i 's/${MOTD}/'"$MOTD"'/g' listeners.toml
 
 cd ../..
 
-echo "Starting Velocity | For Koyeb"
+echo "Starting Velocity | For Koyeb test"
 java -Xmx512M -Xms512M -jar velocity.jar
