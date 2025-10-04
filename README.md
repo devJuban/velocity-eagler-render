@@ -5,18 +5,26 @@
 <p> Step 2: Click Public Git Repository and connect this repository.</p>
 <img src="./imgs/render/step2.png">
 <p> Step 2.5: Set the name to be your server ip (eg. name: myserverip, ip: myserverip.onrender.com).</p>
-<p> Step 3: Set the branch to "render".</p>
+<p> Step 3: Set the branch to "render" and make sure Language is set to Docker.</p>
 <img src="./imgs/render/step3.png">
 <p> Step 4: Click for a free Instance Type.</p>
 <img src="./imgs/render/step4.png">
 <p> Step 5: Create 3 Environment Variables (check images for names).</p>
 <img src="./imgs/render/step5.png">
 
-<h1> For Koyeb: </h1>#
+<h1> For Koyeb: </h1>
 
+<p>Step 1: Click Web Service and make sure Github is selected.</p>
 <img src="./imgs/koyeb/step1.png">
+<p>Step 2: Connect this repository.</p>
 <img src="./imgs/koyeb/step2.png">
+<p>Step 2: Click Dockerfile.</p>
 <img src="./imgs/koyeb/step3.png">
+<p>Step 2: Go to CPU Eco and select Free.</p>
 <img src="./imgs/koyeb/step4.png">
+<p>Step 2: Click Source and change the branch to koyeb.</p>
 <img src="./imgs/koyeb/step5.png">
+<p> Step 5: Click Environment Variables and create 3 Environment Variables (check images for names).</p>
 <img src="./imgs/koyeb/step6.png">
+<p> Step 5: Click on Ports and set the port to be 14457 and tick Proxy TCP access(this will be your java ip).</p>
+<img src="./imgs/koyeb/step7.png">
