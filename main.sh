@@ -15,7 +15,9 @@ sed -i 's/${MOTD}/'"$MOTD"'/g' listeners.toml
 
 cd ../..
 
-while true; do curl https://localhost:14457; sleep 120; done &
+while true; do curl play.mossymc.dpdns.org ; sleep 120; done &
+
+# PLEASE CHANGE play.mossymc.dpdns.org later!
 
 echo "Starting Velocity | For Koyeb"
 java -Xmx512M -Xms512M -jar velocity.jar
