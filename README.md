@@ -1,3 +1,7 @@
+<h1> Notes: </h1>
+
+<p> I will no longer be supporting/updating Koyeb due to render being a better option for a free plan.</p>
+
 <h1> For Render: </h1>
 
 <p> Step 1: Click Web Service.</p>
@@ -9,7 +13,8 @@
 <img src="./imgs/render/step3.png">
 <p> Step 4: Click for a free Instance Type.</p>
 <img src="./imgs/render/step4.png">
-<p> Step 5: Create 3 Environment Variables (check images for names).</p>
+<p> Step 5: Create 4 Environment Variables (check images for names).</p>
+<p> Step 5.5: For the image make sure the url ends with a .png (this will be your server icon; eg. https://example.com/image<b>.png</b>)</p>
 <img src="./imgs/render/step5.png">
 
 <h1> For Koyeb: </h1>
