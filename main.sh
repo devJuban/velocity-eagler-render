@@ -4,6 +4,7 @@ cd velocity
 echo "Your MOTD (eagler only): $MOTD"
 echo "Your Max Players (eagler only): $MAXPLAYERS"
 echo "Your IP: $SERVER"
+echo "Your \"server-icon.png\" will be pulled from: $IMAGE"
 
 sed -i 's/${MOTD}/'"$MOTD"'/g' velocity.toml
 sed -i 's/${MAXPLAYERS}/'"$MAXPLAYERS"'/g' velocity.toml
@@ -14,6 +15,18 @@ cd plugins/eaglerxserver
 sed -i 's/${MOTD}/'"$MOTD"'/g' listeners.toml
 
 cd ../..
+
+mkdir images && cd images
+wget $IMAGE
+
+for file in *
+do
+    mv $file "../server-icon.png"
+done
+
+cd ..
+
+rmdir images
 
 while true; do curl http://127.0.0.1:14457 ; sleep 120; done &
 
