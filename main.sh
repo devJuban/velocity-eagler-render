@@ -15,7 +15,7 @@ sed -i 's/${MOTD}/'"$MOTD"'/g' listeners.toml
 
 cd ../..
 
-while true; do curl https://127.0.0.1:14457 ; sleep 120; done &
+while true; do curl http://127.0.0.1:14457 ; sleep 5; done &
 
 # PLEASE CHANGE play.mossymc.dpdns.org later!
 
