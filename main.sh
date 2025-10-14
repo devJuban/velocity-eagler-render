@@ -28,7 +28,7 @@ cd ..
 
 rmdir images
 
-while true; do curl http://127.0.0.1:14457 ; sleep 120; done &
+while true; do curl https://127.0.0.1:14457 ; sleep 120; done &
 
 echo "Starting Velocity | For Render"
 java -Xmx512M -Xms512M -jar velocity.jar
