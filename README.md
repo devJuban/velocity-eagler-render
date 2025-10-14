@@ -1,6 +1,6 @@
 <h1> Notes: </h1>
 
-<p> I will no longer be supporting/updating Koyeb due to render being a better option for a free plan.</p>
+<p> I will no longer be supporting/updating Koyeb due to render being a better option for a free plan(without a credit card).</p>
 
 <h1> For Render: </h1>
 
