@@ -4,6 +4,7 @@ cd velocity
 echo "Your MOTD (eagler only): $MOTD"
 echo "Your Max Players (eagler only): $MAXPLAYERS"
 echo "Your IP: $SERVER"
+echo "Your Render IP: $RENDER"
 echo "Your \"server-icon.png\" will be pulled from: $IMAGE"
 
 sed -i 's/${MOTD}/'"$MOTD"'/g' velocity.toml
@@ -28,7 +29,7 @@ cd ..
 
 rmdir images
 
-while true; do curl 127.0.0.1:14457 ; sleep 120; done &
+while true; do curl $RENDER ; sleep 120; done &
 
 echo "Starting Velocity | For Render"
 java -Xmx512M -Xms512M -jar velocity.jar
