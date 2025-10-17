@@ -5,6 +5,7 @@
 <p> (also this will probably be one of the last major updates, as now the service can be 24/7)</p>
 <h1> For Render: </h1>
 
+/*
 <p> Step 1: Click Web Service.</p>
 <img src="./imgs/render/step1.png">
 <p> Step 2: Click Public Git Repository and connect this repository.</p>
@@ -37,3 +38,4 @@
 <img src="./imgs/koyeb/step6.png">
 <p> Step 7: Click on Ports and set the port to be 14457 and tick Proxy TCP access(this will be your java ip, won't work if you use "Hobbyist Plan").</p>
 <img src="./imgs/koyeb/step7.png">
+*/
