@@ -7,8 +7,6 @@ echo "Your IP: $SERVER"
 echo "Your Render IP: $RENDER"
 echo "Your \"server-icon.png\" will be pulled from: $IMAGE"
 
-echo "Configuring Environment Variables"
-
 sed -i 's/${MOTD}/'"$MOTD"'/g' velocity.toml
 sed -i 's/${MAXPLAYERS}/'"$MAXPLAYERS"'/g' velocity.toml
 sed -i 's/${SERVER}/'"$SERVER"'/g' velocity.toml
@@ -18,8 +16,6 @@ cd plugins/eaglerxserver
 sed -i 's/${MOTD}/'"$MOTD"'/g' listeners.toml
 
 cd ../..
-
-echo "Configuring \"server-icon.png\""
 
 mkdir images && cd images
 wget $IMAGE
@@ -32,8 +28,6 @@ done
 cd ..
 
 rmdir images
-
-echo "Configuring 24/7 service"
 
 while true; do curl $RENDER ; sleep 120; done &
 
