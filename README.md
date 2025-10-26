@@ -67,7 +67,7 @@
 <p> Step 5: Create 4 Environment Variables (check images for names).</p>
 <p> Step 5.5: For the image upload you server-icon to a website(eg. <a href="https://imgbb.com/">imgbb</a>) and copy the url the ends with .png <b>(MAKE SURE ITS A PNG FILE ONLY!)</b></p>
 <img src="./imgs/render/step5.png">
-<p><b>(IMPORTANT, IF YOU WANT A 24/7 PROXY)</b>Step 6: After deploying your Web Service, copy the onrender.com ip (eg. myserver.onrender.com)</p>
+<p><b>(IMPORTANT, IF YOU WANT A 24/7 PROXY) </b>Step 6: After deploying your Web Service, copy the onrender.com ip (eg. myserver.onrender.com)</p>
 <img src="./imgs/render/step6.png">
 <p>Step 7: Go to Environment and set "RENDER" to the onrender.com ip <b>(MAKE SURE TO COPY https://)</b></p>
 <img src="./imgs/render/step7.png">
@@ -76,7 +76,7 @@
 
 <p style="color: red;"><b>WARNING: I AM NO LONGER SUPPORTING KOYEB! PLEASE CONSIDER USING RENDER!</b></p>
 
-<p>Coming Soon!</p>
+<p>Coming Soon! (in the meanwhile use <a href="README_old.md">README_old.md</a>)</p>
 
 </body>
 
